@@ -1,31 +1,28 @@
-/*🧮 Problem Title: The Farmer’s Fencing Problem
+/*
+🌡 Problem Title: Chef’s Temperature Converter
 💡 Problem Story:
-A farmer named Raju owns a rectangular piece of land.
-He wants to build a fence around it and also plant crops inside the land.
+Chef Rohan is preparing a special recipe that needs the oven temperature in Fahrenheit,
+but his thermometer only shows Celsius readings.
 
-To plan the fencing and crop area, he needs to calculate:
+He needs your help to convert the temperature from Celsius to Fahrenheit
+so that his dish cooks perfectly.
 
-The area of the rectangle (for crops).
-
-The perimeter of the rectangle (for fencing).
-
-He knows the length and width of the land in meters.
-Can you help Raju write a program to find both the area and perimeter of his land?
+Can you write a program to help Chef Rohan convert Celsius to Fahrenheit?
 
 🧠 Task:
-Write a program that takes two integers as input — the length and width of the rectangle —
-and prints the area and perimeter.
+Write a program that takes a temperature in Celsius as input
+and prints the equivalent temperature in Fahrenheit.
 
 📥 Input Format:
-The first line contains two integers,
-length and width — dimensions of the rectangle.
+The input contains a single floating-point or integer number C — the temperature in Celsius.
 
 📤 Output Format:
-Print two lines:
+Print the temperature in Fahrenheit rounded to 2 decimal places,
+in the format:
+"Temperature in Fahrenheit = <value>"
 
-First line: "Area = <value>"
-
-Second line: "Perimeter = <value>"
+📏 Formula:
+F= (C*9/5)+32
 */
 
 #include <iostream>
@@ -47,3 +44,4 @@ int main()
     cout << "Temperature in Fahrenheit is " << celTofarh(c) << endl;
     return 0;
 }
+
